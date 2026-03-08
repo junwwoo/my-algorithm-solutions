@@ -15,8 +15,6 @@ print(myDict)
 result = dict(zip(names, scores))
 print(result)
 
-# unpacking 활용
+# unpacking 활용 (result.items()을 써야 딕셔너리의 값까지 가져올 수 있음)
 for name, score in result.items():
   print(f"{name}: {score}")
-
-
